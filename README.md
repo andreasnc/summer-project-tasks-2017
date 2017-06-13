@@ -11,6 +11,8 @@ Oppgavene ligger i de respektive mappene under routes. Hver oppgave er begrenset
 npm `^3.0.0`
 node `^6.9.5`
 
+Kan lastes ned [her](https://www.npmjs.com/get-npm)
+
 ## Installering
 
 $ git clone https://github.com/andreasnc/summer-project-tasks-2017.git <my-project-name>

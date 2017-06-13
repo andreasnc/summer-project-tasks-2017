@@ -5,10 +5,16 @@ import './PageLayout.scss'
 
 export const PageLayout = ({ children }) => (
   <div className='container text-center'>
-    <h1>React Redux Starter Kit</h1>
-    <IndexLink to='/' activeClassName='page-layout__nav-item--active'>Home</IndexLink>
+    <h1>Oppgavesett react/redux</h1>
     {' · '}
-    <Link to='/counter' activeClassName='page-layout__nav-item--active'>Counter</Link>
+    <Link to='/oppgave1' activeClassName='page-layout__nav-item--active'>Oppgave 1</Link>
+    {' · '}
+    <Link to='/oppgave2' activeClassName='page-layout__nav-item--active'>Oppgave 2</Link>
+    {' · '}
+    <Link to='/oppgave3' activeClassName='page-layout__nav-item--active'>Oppgave 3</Link>
+    {' · '}
+    <Link to='/oppgave4' activeClassName='page-layout__nav-item--active'>Oppgave 4</Link>
+    {' · '}
     <div className='page-layout__viewport'>
       {children}
     </div>

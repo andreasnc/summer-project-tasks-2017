@@ -1,0 +1,12 @@
+{
+  "firstname": "Anakin",
+  "lastname": "Skywalker",
+  "height": "188",
+  "movies": [
+    "Star Wars: Episode II Attack of the Clones",
+    "Star Wars: Episode III Revenge of the Sith",
+    "Star Wars: Episode I The Phantom Menace",
+    "Star Wars: Episode VI Return of the Jedi"
+  ],
+  "imageUrl": "https://s-media-cache-ak0.pinimg.com/236x/e6/74/49/e6744964a17014c19a122fb002d2a2ca.jpg"
+}

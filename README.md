@@ -37,4 +37,4 @@ Etter at steget [Kjør prosjektet](#running-the-project) er komplett, så kan pr
 
 $ npm start
 
-Vil være tilgjengelig på [localhost:3000](localhost:3000)
+Prosjektet vil være tilgjengelig på [localhost:3000](http://localhost:3000) når det er startet.

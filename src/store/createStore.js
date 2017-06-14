@@ -1,4 +1,5 @@
 import { applyMiddleware, compose, createStore as createReduxStore } from 'redux'
+import {middleware as reduxPackMiddleware} from "redux-pack";
 import thunk from 'redux-thunk'
 import { browserHistory } from 'react-router'
 import makeRootReducer from './reducers'
@@ -8,7 +9,7 @@ const createStore = (initialState = {}) => {
   // ======================================================
   // Middleware Configuration
   // ======================================================
-  const middleware = [thunk]
+  const middleware = [thunk, reduxPackMiddleware]
 
   // ======================================================
   // Store Enhancers

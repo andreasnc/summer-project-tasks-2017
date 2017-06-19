@@ -5,17 +5,9 @@ import './PageLayout.scss'
 
 export const PageLayout = ({ children }) => (
   <div className='container text-center'>
-    <h1>Oppgavesett react/redux</h1>
+    <Link to='/secret' activeClassName='page-layout__nav-item--active'>Secret</Link>
     {' · '}
-    <Link to='/oppgave1' activeClassName='page-layout__nav-item--active'>Oppgave 1</Link>
-    {' · '}
-    <Link to='/oppgave2' activeClassName='page-layout__nav-item--active'>Oppgave 2</Link>
-    {' · '}
-    <Link to='/oppgave3' activeClassName='page-layout__nav-item--active'>Oppgave 3</Link>
-    {' · '}
-    <Link to='/oppgave4' activeClassName='page-layout__nav-item--active'>Oppgave 4</Link>
-    {' · '}
-    <Link to='/oppgave5' activeClassName='page-layout__nav-item--active'>Oppgave 5</Link>
+    <a href={`http://localhost:8080/login`}>Login</a>
     {' · '}
     <div className='page-layout__viewport'>
       {children}

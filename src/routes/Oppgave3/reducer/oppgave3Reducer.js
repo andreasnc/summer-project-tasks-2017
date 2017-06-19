@@ -3,10 +3,10 @@ import {
 } from '../constants';
 
 // Hjelpefunksjon
-function insertItem(array, action) {
+function insertItem(array, item) {
   return [
     ...array,
-    action.payload
+    item
   ]
 }
 

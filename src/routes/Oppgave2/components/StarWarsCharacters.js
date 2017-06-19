@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import StarWarsCharacter from './StarWarsCharacter';
 
 const StarWarsCharacters = ({
     characters
   }) =>
   <div className="star-wars-characters">
-    {/*  create a list of StarWarsCharacter here */ }
+    {characters.map(character => <StarWarsCharacter {...character}/>) }
   </div>;
 
 StarWarsCharacters.propTypes = {

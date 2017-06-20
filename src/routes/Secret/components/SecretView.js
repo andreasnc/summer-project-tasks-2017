@@ -2,7 +2,7 @@ import React from 'react';
 
 class SecretView extends React.Component {
   componentWillMount() {
-    fetch('http://localhost:8080/api/secret', {
+    fetch('/api/secret', {
       mode: 'cors',
       credentials: 'include'
     }).then(res => res.json().then(json => console.log(json)));

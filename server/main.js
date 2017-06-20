@@ -13,7 +13,7 @@ app.use(compress())
 // ------------------------------------
 // Setup Http Proxy
 // ------------------------------------
-const apiHost = process.env.API_HOST
+const apiHost = process.env.API_HOST || 'http://localhost:8080'
 logger.info('API HOST: ' + apiHost)
 app.use('/api', httpProxyMiddleware({target: apiHost, changeOrigin: true}))
 app.use('/login', httpProxyMiddleware({target: apiHost}))

@@ -11,7 +11,7 @@ const app = express()
 app.use(compress())
 
 // ------------------------------------
-// Setup Express-Http-Proxy
+// Setup Http Proxy
 // ------------------------------------
 app.use('/api', httpProxyMiddleware({target: 'http://localhost:8080', changeOrigin: true}))
 app.use('/login', httpProxyMiddleware({target: 'http://localhost:8080'}))

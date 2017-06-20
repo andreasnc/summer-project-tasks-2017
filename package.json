@@ -9,6 +9,7 @@
     "build": "npm run clean && npm run compile",
     "start": "cross-env NODE_ENV=development node build/scripts/start",
     "prod": "npm run build && node build/scripts/start",
+    "postinstall": "npm rebuild node-sass",
     "test": "cross-env NODE_ENV=test karma start build/karma.config",
     "test:watch": "npm test -- --watch",
     "lint": "eslint .",

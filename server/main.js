@@ -13,8 +13,10 @@ app.use(compress())
 // ------------------------------------
 // Setup Http Proxy
 // ------------------------------------
-app.use('/api', httpProxyMiddleware({target: 'http://localhost:8080', changeOrigin: true}))
-app.use('/login', httpProxyMiddleware({target: 'http://localhost:8080'}))
+const apiHost = process.env.API_HOST
+logger.info('API HOST: ' + apiHost)
+app.use('/api', httpProxyMiddleware({target: apiHost, changeOrigin: true}))
+app.use('/login', httpProxyMiddleware({target: apiHost}))
 
 // ------------------------------------
 // Apply Webpack HMR Middleware

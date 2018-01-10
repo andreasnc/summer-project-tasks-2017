@@ -9,11 +9,19 @@ export const PageLayout = ({ children }) => (
     {' · '}
     <Link to='/oppgave1' activeClassName='page-layout__nav-item--active'>Oppgave 1</Link>
     {' · '}
+    <Link to='/oppgave1Fasit' activeClassName='page-layout__nav-item--active'>Oppgave 1 Fasit</Link>
+    {' · '}
     <Link to='/oppgave2' activeClassName='page-layout__nav-item--active'>Oppgave 2</Link>
+    {' · '}
+    <Link to='/oppgave2Fasit' activeClassName='page-layout__nav-item--active'>Oppgave 2 Fasit</Link>
     {' · '}
     <Link to='/oppgave3' activeClassName='page-layout__nav-item--active'>Oppgave 3</Link>
     {' · '}
+    <Link to='/oppgave3Fasit' activeClassName='page-layout__nav-item--active'>Oppgave 3 Fasit</Link>
+    {' · '}
     <Link to='/oppgave4' activeClassName='page-layout__nav-item--active'>Oppgave 4</Link>
+    {' · '}
+    <Link to='/oppgave4Fasit' activeClassName='page-layout__nav-item--active'>Oppgave 4 Fasit</Link>
     {' · '}
     <Link to='/oppgave5' activeClassName='page-layout__nav-item--active'>Oppgave 5</Link>
     {' · '}

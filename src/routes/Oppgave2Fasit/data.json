@@ -1,0 +1,56 @@
+[
+  {
+    "firstname": "Anakin",
+    "lastname": "Skywalker",
+    "height": "188",
+    "movies": [
+      "Star Wars: Episode II Attack of the Clones",
+      "Star Wars: Episode III Revenge of the Sith",
+      "Star Wars: Episode I The Phantom Menace",
+      "Star Wars: Episode VI Return of the Jedi"
+    ],
+    "imageUrl": "https://s-media-cache-ak0.pinimg.com/236x/e6/74/49/e6744964a17014c19a122fb002d2a2ca.jpg"
+  },
+  {
+    "firstname": "R2",
+    "lastname": "D2",
+    "height": "109",
+    "movies": [
+      "Star Wars: Episode II Attack of the Clones",
+      "Star Wars: Episode III Revenge of the Sith",
+      "Star Wars: Episode V The Empire Strikes Back",
+      "Star Wars: Episode I The Phantom Menace",
+      "Star Wars: Episode IV A New Hope",
+      "Star Wars: Episode VI Return of the Jedi",
+      "Star Wars: Episode VII The Force Awakens",
+      "Rogue One: A Star Wars Story"
+    ],
+    "imageUrl": "https://fthmb.tqn.com/Nx7us4M1NpM4RaMjvt-A9yaHEng=/768x0/filters:no_upscale()/about/R2D2_MCH-IA-324_R_8x10-56a839a65f9b58b7d0f1a855.jpg"
+  },
+  {
+    "firstname": "Darth",
+    "lastname": "Vader",
+    "height": "203",
+    "movies": [
+      "Star Wars: Episode III Revenge of the Sith",
+      "Star Wars: Episode V The Empire Strikes Back",
+      "Star Wars: Episode IV A New Hope",
+      "Star Wars: Episode VI Return of the Jedi",
+      "Rogue One: A Star Wars Story"
+    ],
+    "imageUrl": "http://media1.jex.cz/images/media1:4992b7589e14b.jpg/647591.jpg"
+  },
+  {
+    "firstname": "Luke",
+    "lastname": "Skywalker",
+    "height": "172",
+    "movies": [
+      "Star Wars: Episode III Revenge of the Sith",
+      "Star Wars: Episode V The Empire Strikes Back",
+      "Star Wars: Episode IV A New Hope",
+      "Star Wars: Episode VI Return of the Jedi",
+      "Star Wars: Episode VII The Force Awakens"
+    ],
+    "imageUrl": "http://thewallmachine.com/files/1456856430.jpg"
+  }
+]
